@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgba(30, 30, 30, 0.9);
+  border: 3px solid #e50914; /* Vermelho Netflix */
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.6);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  font-family: 'Impact', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e50914;
+  text-shadow: 2px 2px 4px #000;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1em;
+  border-radius: 8px;
+  border: 2px solid #e50914;
+  background: #111;
+  color: #fff;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1em;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff3c3c;
+  transform: scale(1.05);
+}
+
+.resultado {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #e50914;
+  color: #fff;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.85rem;
+  color: #aaa;
+  text-align: center;
+}
