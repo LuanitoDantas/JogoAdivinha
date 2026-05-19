@@ -1,5 +1,5 @@
 //1. Ouvir o evento de quando o usuário sair do campo de CEP
-document.getElementById('cep').addEventListener('blur', (evento) => {
+document.getElementById('cep').addEventListener('blur', (evento) => { //O blur é o evento de quando o usuário sai do campo, ou seja, quando ele termina de digitar o CEP e clica fora do campo
 const elemento = evento.target; //Pega o elemento que disparou o evento, ou seja, o campo de CEP
 const cepInformado = elemento.value; //Pega o valor do campo de CEP
 
